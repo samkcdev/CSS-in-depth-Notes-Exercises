@@ -1,0 +1,21 @@
+h1 {
+  color: #2f4f4f;
+  margin-bottom: 10px;
+}
+
+#main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+#main-nav li {
+  display: inline-block;
+}
+
+#main-nav li a {
+  background: #2f4f4f;
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+}
