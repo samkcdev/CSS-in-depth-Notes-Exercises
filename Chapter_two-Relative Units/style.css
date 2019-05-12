@@ -1,0 +1,32 @@
+:root {
+  font-size: 1em;
+}
+
+body {
+  font-size: 16px;
+}
+
+.slogan {
+  font-size: 1.2em;
+  padding: 1.5em;
+  background-color: #eee;
+}
+
+.box {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: gray;
+  margin-right: 1em;
+}
+
+.big-box {
+  font-size: 20px;
+}
+
+.small-box {
+  font-size: 16px;
+}
+
+ul {
+  font-size: 0.8rem;
+}
