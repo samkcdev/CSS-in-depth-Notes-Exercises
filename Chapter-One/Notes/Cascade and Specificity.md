@@ -28,3 +28,19 @@ So we can we specificity weightage like this
 1 0 0 means id and no class and no tags-so this will have more weightage
 0 1 0 means no id and one class and no tags-after that this will come
 0 0 1 means no id, no class and one tag-only after the above all this will be considered
+
+### Cascade Value
+
+A declaration that “wins” the cascade is
+called a cascaded value.
+The value applied to a propery of a particular element as a result of cascade
+
+### Inherit and Initial
+
+ <p>Inherit will inherent the values from its parent element. Keyword:<pre>inherit</pre></p>
+ <p>Initial resets the property value to default its value. Keyword:<pre>initial</pre></p>
+ <p>The benefit of this is you don’t have to think about it as much. If you want to remove a
+border from an element, set border: initial. If you want to restore an element to its
+default width, set width: initial</p>
+
+Padding and margin follow the clockwise ordering of values while the background follows cartesian grid X-Y
